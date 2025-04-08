@@ -54,9 +54,3 @@ if __name__ == '__main__':
         json.dump(peliculas, f, indent=4) # Guarda la lista de películas en un archivo JSON con una indentación de 4 espacios
         #Envia un mensaje indicando que se guardó la información
         print("✓ Información de películas guardada en 'peliculas_streaming.json'")
-
-
-    # Imprimir los resultados
-    #print("\nPelículas con información de streaming:")
-    #for idx, pelicula in enumerate(peliculas, start=1):
-    #    print(f"{idx}. Título: {pelicula.get('title', 'Sin título')}, Proveedores: {', '.join(pelicula.get('streaming_providers', []))}")

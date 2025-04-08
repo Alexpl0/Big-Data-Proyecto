@@ -1,4 +1,4 @@
-from calculations import get_public_orgs, revenue_per_industry
+from filtros.calculations import get_public_orgs, revenue_per_industry
 import pytest
 
 
